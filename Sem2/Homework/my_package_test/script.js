@@ -1,0 +1,2 @@
+import { createElement } from './node_modules/alex_mangust_create_html_element/index.js';
+document.body.appendChild(createElement('div', 'my-class', { backgroundColor: 'blue', width: "120px", height: "120px"}));

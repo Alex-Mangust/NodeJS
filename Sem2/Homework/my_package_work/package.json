@@ -1,0 +1,10 @@
+{
+  "name": "alex_mangust_create_html_element",
+  "version": "2.0.1",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Alex Mangust",
+  "license": "ISC",
+  "description": "A package for frontend development that allows you to create an HTML element with the desired tag, class, and styles using a single method."
+}
