@@ -7,7 +7,7 @@ const { checkParams, checkBody } = require("./validation/validator");
 
 const app = express();
 
-async function checkAndCreateFolder() { // После того, как я внез файл с данными о пользователях в gitignore, git status перестал отслеживать папку static. Добавил эту функцию, чтобы, если папки нет, она создавалась сама.
+async function checkAndCreateFolder() { // После того, как я внес файл с данными о пользователях в gitignore, git status перестал отслеживать папку static. Добавил эту функцию, чтобы, если папки нет, она создавалась сама.
     try {
         await fsPromises.access(path.join(__dirname, "static"));
     } catch (error) {
